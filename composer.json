@@ -1,0 +1,19 @@
+{
+  "name": "quansitech/builder-adapter-for-antd-admin",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Quansitech\\BuilderAdapterForAntdAdmin\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "qq958691165",
+      "email": "958691165@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2.12",
+    "tiderjian/think-core": ">=14.0.0"
+  }
+}
