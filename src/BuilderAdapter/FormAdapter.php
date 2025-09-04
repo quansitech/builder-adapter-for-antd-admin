@@ -79,6 +79,7 @@ class FormAdapter
             }
             $fi = $class->formColumnAntdRender($form_item);
             $container->addColumn($fi);
+            $fi->setFormItemWidth(24);
 
             if ($form_item['tip']) {
                 $fi->setTips($form_item['tip']);
